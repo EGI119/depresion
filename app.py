@@ -3,10 +3,10 @@ import pickle
 import numpy as np
 
 # === Load model dan fitur ===
-with open('depresi_model1.pkl', 'rb') as model_file:
+with open('depresi_model.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
-with open('selected_features.pkl1', 'rb') as features_file:
+with open('selected_features.pkl', 'rb') as features_file:
     selected_features = pickle.load(features_file)
 
 # === Judul Aplikasi ===
